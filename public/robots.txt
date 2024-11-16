@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# Sitemaps
+Sitemap: https://www.freepoolcostcalculator.com/sitemap.xml

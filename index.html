@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0284c7" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Free Pool Cost Calculator" />
+    <meta name="google-site-verification" content="your-verification-code" />
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="/src/index.css" as="style">
+    <link rel="preload" href="/src/main.tsx" as="script" type="module">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
+    
+    <!-- Defer non-critical CSS -->
+    <link rel="stylesheet" href="/src/index.css" media="print" onload="this.media='all'">
+    
+    <!-- PWA assets -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <title>Free Pool Cost Calculator | Estimate Your Pool Expenses</title>
+    
+    <meta name="description" content="Calculate pool construction and maintenance costs with our free calculator. Get instant estimates for inground pools, above ground pools, and maintenance." />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Free Pool Cost Calculator | Estimate Your Pool Expenses" />
+    <meta property="og:description" content="Calculate pool construction and maintenance costs with our free calculator. Get instant estimates for inground pools, above ground pools, and maintenance." />
+    <meta property="og:image" content="/og-image.jpg" />
+    <meta property="og:url" content="https://www.freepoolcostcalculator.com" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Free Pool Cost Calculator" />
+    <meta name="twitter:description" content="Calculate pool construction and maintenance costs instantly" />
+    <meta name="twitter:image" content="/og-image.jpg" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Free Pool Cost Calculator",
+        "description": "Calculate pool construction and maintenance costs with our free calculator. Get instant estimates for inground pools, above ground pools, and maintenance.",
+        "url": "https://www.freepoolcostcalculator.com",
+        "applicationCategory": "Calculator",
+        "operatingSystem": "Web Browser",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx" async></script>
+    <noscript>You need to enable JavaScript to run this application.</noscript>
+  </body>
+</html>
